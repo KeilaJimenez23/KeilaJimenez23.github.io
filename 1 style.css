@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&family=Lobster&family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body{
+    background-color: rgb(243, 145, 125);
+}
+header{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    border-style: dotted;
+    border-color: beige;
+    border-radius: 25px;
+    text-shadow: 2px 2px 5px rgb(22, 158, 236);
+}
+#bloque1{
+    background-color: #ff99ff;
+    width: 100%;
+}
+
+ul{
+    list-style-type:none ;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    display: flex;
+    flex-direction: row;  
+}
+
+ul li{
+    color: #037f9e;
+    font-family: 'Tektur', cursive;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-shadow: 0 0 3px #e05bec;
+}
+
+#insta{
+    color: rgb(0, 2, 3);
+    font-family: 'Caveat', cursive;
+    font-size: 150%; 
+}
+  
+#logotipo{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-color: black;
+    border-style: solid;
+    
+
+}
+.image{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+#contorno{
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-color: #1eebd0;
+}
+
+.linea{
+    text-decoration: none;
+}
+
+#maps{
+    display: flex;
+}
+.contactar{
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(75, 240, 231);
+    background: url(https://img.freepik.com/fotos-premium/fondo-fiesta-o-cumpleanos-sobre-fondo-color_441923-9244.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: 'Caveat', cursive;
+    font-size: 100px;  
+    color: rgb(10, 10, 2);
+    justify-content: center;
+   
+   
+}
+.whats{
+    width: 5%;
+    height: 30px;
+    border-style: solid;
+    color: rgb(17, 218, 218);
+    border-radius: 50%;
+
+}
+#referencia{
+    color: rgb(10, 96, 139);
+    font-family: 'Caveat', cursive;
+    font-size: 100%;
+}
+.instagram{
+    color: rgb(0, 3, 5);
+    text-align: justify;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    
+}
+.articulo1{
+    color: rgb(0, 2, 3);
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 60px;
+}
+ 
+.fiesta1 img{
+    border-radius: 50%;
+    border-style:solid;
+    color: #f51055;
+    width: 80%;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fiesta1{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-content: space-around;
+
+ }
+ 
+.col-md-4 p{
+    color: rgb(231, 236, 240);
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+ }
+.fondo-mora{
+    background-color: #ad0992;
+ }
+    
+#regalo{
+    width: 30%;
+    height: 300%;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 50%;
+ }
+ 
+ 
+
+
+  
